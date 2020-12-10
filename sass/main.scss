@@ -1,0 +1,330 @@
+/* --------------------------
+:: Template Name: Eventsia : Page 68
+:: Description: Page 68
+:: Created: 10/12/2020  MM/DD/YYYY
+-------------------------- */
+
+/* ----------------------
+[Table of contents]
+01.Base CSS
+02.conver 1 CSS
+
+ --------------------------*/
+
+/*  ----------- 01- Start Base CSS  ----------- */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --main-black-color: #222;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  color: inherit !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+li {
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+/*  ----------- 01 -End Base CSS   -----------*/
+/*  ----------- 02 -Start page 62  CSS   -----------*/
+.convers_3 {
+  background-color: #000;
+  color: #fff;
+  .my_container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .Preloade header {
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-top: 12px;
+    background: #000;
+    color: #fff;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    z-index: 1;
+    .h-title {
+      h6 {
+        margin-top: 2.5vh;
+        font-size: 0.95em;
+        margin-bottom: 4px;
+        text-transform: uppercase;
+        padding-left: 4vw;
+      }
+      p {
+        font-size: 0.65em;
+        color: #888;
+        padding-left: 4vw;
+      }
+    }
+  }
+  .Preloade .backButton {
+    max-width: 26px;
+  }
+  .search {
+    img {
+      max-width: 26px;
+      margin-right: 4px;
+    }
+  }
+
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .row > div {
+    padding: 0;
+  }
+  .conv-main {
+    position: fixed;
+    left: 0;
+    top: 8vh;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    z-index: 99;
+    overflow-y: scroll;
+
+    .conversation {
+      width: 100%;
+      > div {
+        margin-top: 3vh;
+      }
+    }
+    .img_sender {
+      img {
+        width: 85%;
+      }
+    }
+    .message {
+      padding: 2vh 3vw;
+      color: #fff;
+      font-size: 0.9em;
+      display: inline-block;
+      width: 90%;
+    }
+    .my_message {
+      width: 70%;
+      margin-left: auto;
+    }
+    .chater_msg {
+      border-radius: 25px 25px 25px 0;
+    }
+    .type_1 {
+      background-color: #645aff;
+    }
+    .type_2 {
+      background-color: #ec87a1;
+    }
+    .my_msg {
+      background-color: #2dc9eb;
+      border-radius: 25px 25px 0 25px;
+    }
+    .time {
+      font-size: 0.8em;
+      padding-top: 0.5vh;
+      color: #888;
+      img {
+        width: 20px;
+        margin-top: -0.5vh;
+      }
+    }
+    .audio_msg {
+      background-color: #fff;
+      color: #222;
+      padding: 0.5vh 2vw;
+      border-radius: 20px 20px 20px 0;
+      .vid {
+        img {
+          width: 65%;
+        }
+      }
+      .row {
+        align-items: center;
+      }
+      .spn_sudio {
+        background-color: #ddd;
+        height: 2px;
+        width: 100%;
+        border-radius: 1px;
+        display: flex;
+
+        span {
+          background-color: #999;
+          display: inline-block;
+          height: 2px;
+        }
+      }
+      .msg_time {
+        font-size: 0.9em;
+        margin-left: 5px;
+      }
+      .info_audio {
+        img {
+          width: 20px;
+          margin-left: 6px;
+        }
+      }
+    }
+    .write {
+      ul {
+        background-color: #2b2c3f;
+        width: 18vw;
+        padding: 1.2vh 0;
+        text-align: center;
+        border-radius: 20px 20px 20px 0;
+        li {
+          display: inline-block;
+          margin: 0 2px;
+          border-radius: 50%;
+          width: 5px;
+          height: 5px;
+          background-color: #000;
+        }
+      }
+    }
+  }
+  .conv_send {
+    position: fixed;
+
+    height: 32vh;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    .hand_icon {
+      background-color: #24242a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5.5vh 0;
+      border-radius: 14px;
+      img {
+        width: 24vw;
+      }
+    }
+    .send_color_option {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.5vh 0;
+      .back_icon {
+        img {
+          width: 25px;
+        }
+      }
+
+      .btn_send {
+        .btn {
+          background-color: #2b2c3f;
+          border-radius: 18px;
+          padding: 4px 8px;
+          color: #fff;
+          font-size: 0.9em;
+          img {
+            width: 18px;
+            margin-right: 3px;
+          }
+        }
+      }
+      .list_color {
+        margin-right: -5vw;
+        li {
+          margin: 0 0.6vw;
+          display: inline-block;
+          padding: 2px;
+          border-radius: 50%;
+          span {
+            width: 16px;
+            height: 15px;
+            border-radius: 50%;
+
+            display: block;
+          }
+        }
+        .active {
+          border: 2px solid #fff;
+          text-align: center;
+        }
+        .color1 {
+          background-color: #14d2b8;
+        }
+        .color2 {
+          background-color: #6398ec;
+        }
+        .color3 {
+          background-color: #ed6067;
+        }
+        .color4 {
+          background-color: #ff3d77;
+        }
+        .color5 {
+          background-color: #fd9563;
+        }
+      }
+    }
+
+    /*.my_img_chat {
+      img {
+        width: 80%;
+      }
+    }
+    .form-group {
+      position: relative;
+      .icon {
+        position: absolute;
+        right: 10px;
+        top: 8px;
+        img {
+          width: 20px;
+        }
+      }
+      input {
+        background-color: #222;
+        border: none;
+        border-radius: 20px;
+      }
+      input:focus {
+        box-shadow: none;
+      }
+      .form-control::placeholder {
+        font-size: 0.8em;
+        color: #6c7b8a;
+      }
+    }
+    .options_icon {
+      padding-top: 1vh;
+      padding-left: 0.8vw;
+      img {
+        width: 24px;
+      }
+    } */
+  }
+}
+
+/*  ----------- 02 -End page  CSS   -----------*/

@@ -115,7 +115,7 @@ body {
 .convers_3 .conv-main {
   position: fixed;
   left: 0;
-  top: 8vh;
+  bottom: 34vh;
   height: 58vh;
   width: 100%;
   display: -webkit-box;
